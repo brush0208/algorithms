@@ -18,6 +18,7 @@ public abstract   class BaseSort  {
         {
             if(less(a[i],a[i-1])) return false;
         }
+        return true;
 
     }
 
